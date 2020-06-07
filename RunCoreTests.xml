@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Example of a test runner that contains core tests -->
+<suite name="TestSuite">
+	<test name="CoreTests">
+		<groups>
+			<run>
+				<include name = "CoreTests" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.textcompare.test.TextComparisonTests" />
+		</classes>
+	</test>
+</suite>

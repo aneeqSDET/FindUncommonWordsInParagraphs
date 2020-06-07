@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CoreParallelTestSuite" parallel="methods" thread-count="8">
+	<test name="CoreParallelTests">
+		<groups>
+			<run>
+				<include name = "SomeTestsTheNeedToRunParallel" />
+				<!-- No test are added to this group yet but we can add some if required -->
+				<!-- Running this program in a MultiThreaded environment renders unintended consequences because the data structures used are not thread safe-->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.textcompare.test.TextComparisonTests" />
+		</classes>
+	</test>
+</suite>

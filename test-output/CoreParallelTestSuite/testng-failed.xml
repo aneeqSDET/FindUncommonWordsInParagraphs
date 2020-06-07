@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="8" guice-stage="DEVELOPMENT" name="Failed suite [CoreParallelTestSuite]" parallel="methods">
+  <test thread-count="8" name="CoreParallelTests(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="CoreTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.textcompare.test.TextComparisonTests">
+        <methods>
+          <include name="testNoUncommonWords"/>
+        </methods>
+      </class> <!-- com.textcompare.test.TextComparisonTests -->
+    </classes>
+  </test> <!-- CoreParallelTests(failed) -->
+</suite> <!-- Failed suite [CoreParallelTestSuite] -->
