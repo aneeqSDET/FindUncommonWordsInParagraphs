@@ -1,4 +1,4 @@
-Find common words in 2 paragraphs using Java and test automation framework (TestNG) to test the algorithm.
+Find uncommon words in 2 paragraphs using Java and test automation framework (TestNG) to test the algorithm.
 
 Here is a small intro to the important areas of the repo
 1.	TextComparisonLauncher.java has the main method and can be used to launch the application.
