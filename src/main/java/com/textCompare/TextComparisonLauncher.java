@@ -18,7 +18,7 @@ public class TextComparisonLauncher {
 		result = txtcmpr.getDifferences(firstSentence, secondSentence);
 		if(result.length==0)
 		{
-			System.out.println("There are no unique words in the two sentences you entered");
+			System.out.println("There are no unique words in the two sentences you have entered");
 		}
 		else
 		{
