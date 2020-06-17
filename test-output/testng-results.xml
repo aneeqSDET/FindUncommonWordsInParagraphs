@@ -2,94 +2,94 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="AllTestCases" duration-ms="705" started-at="2020-06-07T17:44:29Z" finished-at="2020-06-07T17:44:30Z">
+  <suite name="AllTestCases" duration-ms="1551" started-at="2020-06-17T15:20:22Z" finished-at="2020-06-17T15:20:24Z">
     <groups>
       <group name="CoreTests">
-        <method signature="TextComparisonTests.testAllUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testAllUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testCaseSensitivityofUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testCaseSensitivityofUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testNoUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testNoUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testRepeatingUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testRepeatingUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testSomeUncommonWordsinBoth()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinBoth" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testSomeUncommonWordsinFirst()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinFirst" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testSomeUncommonWordsinSecond()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinSecond" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testUncommonWordsWithPunctuation()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testUncommonWordsWithPunctuation" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testAllUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testAllUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testCaseSensitivityofUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testCaseSensitivityofUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testNoUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testNoUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testRepeatingUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testRepeatingUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testSomeUncommonWordsinBoth()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinBoth" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testSomeUncommonWordsinFirst()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinFirst" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testSomeUncommonWordsinSecond()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinSecond" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testUncommonWordsWithPunctuation()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testUncommonWordsWithPunctuation" class="com.textcompare.test.TextComparisonTests"/>
       </group> <!-- CoreTests -->
       <group name="AllTestCases">
-        <method signature="TextComparisonTests.testAllUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testAllUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testCaseSensitivityofUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testCaseSensitivityofUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testEmptyString()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testEmptyString" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testLongSentence()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testLongSentence" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testNoUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testNoUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testOneWord()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testOneWord" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testRepeatingUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testRepeatingUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testSomeUncommonWordsinBoth()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinBoth" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testSomeUncommonWordsinFirst()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinFirst" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testSomeUncommonWordsinSecond()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinSecond" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testUncommonWordsWithNumbers()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testUncommonWordsWithNumbers" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testUncommonWordsWithPunctuation()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testUncommonWordsWithPunctuation" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testAllUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testAllUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testCaseSensitivityofUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testCaseSensitivityofUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testEmptyString()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testEmptyString" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testLongSentence()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testLongSentence" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testNoUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testNoUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testOneWord()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testOneWord" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testRepeatingUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testRepeatingUncommonWords" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testSomeUncommonWordsinBoth()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinBoth" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testSomeUncommonWordsinFirst()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinFirst" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testSomeUncommonWordsinSecond()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinSecond" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testUncommonWordsWithNumbers()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testUncommonWordsWithNumbers" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testUncommonWordsWithPunctuation()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testUncommonWordsWithPunctuation" class="com.textcompare.test.TextComparisonTests"/>
       </group> <!-- AllTestCases -->
       <group name="SecondaryTests">
-        <method signature="TextComparisonTests.testEmptyString()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testEmptyString" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testLongSentence()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testLongSentence" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testOneWord()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testOneWord" class="com.textcompare.test.TextComparisonTests"/>
-        <method signature="TextComparisonTests.testUncommonWordsWithNumbers()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testUncommonWordsWithNumbers" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testEmptyString()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testEmptyString" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testLongSentence()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testLongSentence" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testOneWord()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testOneWord" class="com.textcompare.test.TextComparisonTests"/>
+        <method signature="TextComparisonTests.testUncommonWordsWithNumbers()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testUncommonWordsWithNumbers" class="com.textcompare.test.TextComparisonTests"/>
       </group> <!-- SecondaryTests -->
     </groups>
-    <test name="AllTestCases" duration-ms="705" started-at="2020-06-07T17:44:29Z" finished-at="2020-06-07T17:44:30Z">
+    <test name="AllTestCases" duration-ms="1551" started-at="2020-06-17T15:20:22Z" finished-at="2020-06-17T15:20:24Z">
       <class name="com.textcompare.test.TextComparisonTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="setup" is-config="true" duration-ms="15" started-at="2020-06-07T17:44:29Z" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="setup" is-config="true" duration-ms="22" started-at="2020-06-17T15:20:22Z" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testEmptyString()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testEmptyString" duration-ms="14" started-at="2020-06-07T17:44:29Z" description="Empty String" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testEmptyString()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testEmptyString" duration-ms="14" started-at="2020-06-17T15:20:22Z" description="Empty String" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyString -->
-        <test-method status="PASS" signature="testLongSentence()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testLongSentence" duration-ms="4" started-at="2020-06-07T17:44:29Z" description="Paragraph" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testLongSentence()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testLongSentence" duration-ms="7" started-at="2020-06-17T15:20:22Z" description="Paragraph" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLongSentence -->
-        <test-method status="PASS" signature="testOneWord()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testOneWord" duration-ms="1" started-at="2020-06-07T17:44:29Z" description="One Word" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testOneWord()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testOneWord" duration-ms="2" started-at="2020-06-17T15:20:22Z" description="One Word" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneWord -->
-        <test-method status="PASS" signature="testUncommonWordsWithNumbers()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testUncommonWordsWithNumbers" duration-ms="1" started-at="2020-06-07T17:44:29Z" description="Word is repeated with numbers" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testUncommonWordsWithNumbers()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testUncommonWordsWithNumbers" duration-ms="1" started-at="2020-06-17T15:20:22Z" description="Word is repeated with numbers" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUncommonWordsWithNumbers -->
-        <test-method status="PASS" signature="testAllUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testAllUncommonWords" duration-ms="1" started-at="2020-06-07T17:44:29Z" description="All non-matching words" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testAllUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testAllUncommonWords" duration-ms="2" started-at="2020-06-17T15:20:22Z" description="All non-matching words" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllUncommonWords -->
-        <test-method status="PASS" signature="testCaseSensitivityofUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testCaseSensitivityofUncommonWords" duration-ms="5" started-at="2020-06-07T17:44:29Z" description="Word is repeated with different case" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testCaseSensitivityofUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testCaseSensitivityofUncommonWords" duration-ms="2" started-at="2020-06-17T15:20:22Z" description="Word is repeated with different case" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSensitivityofUncommonWords -->
-        <test-method status="PASS" signature="testNoUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testNoUncommonWords" duration-ms="5" started-at="2020-06-07T17:44:29Z" description="All matching words" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testNoUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testNoUncommonWords" duration-ms="10" started-at="2020-06-17T15:20:22Z" description="All matching words" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNoUncommonWords -->
-        <test-method status="PASS" signature="testRepeatingUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testRepeatingUncommonWords" duration-ms="16" started-at="2020-06-07T17:44:29Z" description="Word is repeated in same sentence but not present in second sentence" finished-at="2020-06-07T17:44:29Z">
+        <test-method status="PASS" signature="testRepeatingUncommonWords()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testRepeatingUncommonWords" duration-ms="1" started-at="2020-06-17T15:20:22Z" description="Word is repeated in same sentence but not present in second sentence" finished-at="2020-06-17T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRepeatingUncommonWords -->
-        <test-method status="PASS" signature="testSomeUncommonWordsinBoth()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinBoth" duration-ms="564" started-at="2020-06-07T17:44:29Z" description="Some non-matching words in both" finished-at="2020-06-07T17:44:30Z">
+        <test-method status="PASS" signature="testSomeUncommonWordsinBoth()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinBoth" duration-ms="1096" started-at="2020-06-17T15:20:22Z" description="Some non-matching words in both" finished-at="2020-06-17T15:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSomeUncommonWordsinBoth -->
-        <test-method status="PASS" signature="testSomeUncommonWordsinFirst()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinFirst" duration-ms="1" started-at="2020-06-07T17:44:30Z" description="Some non-matching words in First Sentence" finished-at="2020-06-07T17:44:30Z">
+        <test-method status="PASS" signature="testSomeUncommonWordsinFirst()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinFirst" duration-ms="153" started-at="2020-06-17T15:20:24Z" description="Some non-matching words in First Sentence" finished-at="2020-06-17T15:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSomeUncommonWordsinFirst -->
-        <test-method status="PASS" signature="testSomeUncommonWordsinSecond()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testSomeUncommonWordsinSecond" duration-ms="1" started-at="2020-06-07T17:44:30Z" description="Some non-matching words in Second Sentence" finished-at="2020-06-07T17:44:30Z">
+        <test-method status="PASS" signature="testSomeUncommonWordsinSecond()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testSomeUncommonWordsinSecond" duration-ms="151" started-at="2020-06-17T15:20:24Z" description="Some non-matching words in Second Sentence" finished-at="2020-06-17T15:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSomeUncommonWordsinSecond -->
-        <test-method status="PASS" signature="testUncommonWordsWithPunctuation()[pri:1, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="testUncommonWordsWithPunctuation" duration-ms="3" started-at="2020-06-07T17:44:30Z" description="Word is repeated with punctuation" finished-at="2020-06-07T17:44:30Z">
+        <test-method status="PASS" signature="testUncommonWordsWithPunctuation()[pri:1, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="testUncommonWordsWithPunctuation" duration-ms="3" started-at="2020-06-17T15:20:24Z" description="Word is repeated with punctuation" finished-at="2020-06-17T15:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUncommonWordsWithPunctuation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.textcompare.test.TextComparisonTests@68be2bc2]" name="teardown" is-config="true" duration-ms="1" started-at="2020-06-07T17:44:30Z" finished-at="2020-06-07T17:44:30Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.textcompare.test.TextComparisonTests@18be83e4]" name="teardown" is-config="true" duration-ms="1" started-at="2020-06-17T15:20:24Z" finished-at="2020-06-17T15:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

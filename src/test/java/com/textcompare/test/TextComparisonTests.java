@@ -19,25 +19,25 @@ public class TextComparisonTests {
 	}
 	@Test (priority=1, groups="CoreTests", description="Some non-matching words in both")
 	public void testSomeUncommonWordsinBoth(){
-		firstSentence=excelUtil.getFirstSentence(1);
-		secondSentence=excelUtil.getSecondSentence(1);
-		String[] expectedResult= excelUtil.getExpectedResults(1).split(" ");
+		firstSentence=excelUtil.getDataFromExcel(1, 0);
+		secondSentence=excelUtil.getDataFromExcel(1, 1);
+		String[] expectedResult= excelUtil.getDataFromExcel(1, 2).split(" ");
 		String[]actualResult = txtComparison.getDifferences(firstSentence, secondSentence);
 		Assert.assertEquals(actualResult,expectedResult,"Test Passed");
 		}
 	@Test (priority=1, groups="CoreTests", description="Some non-matching words in First Sentence")
 	public void testSomeUncommonWordsinFirst(){
-		firstSentence="This is first sentence";
-		secondSentence="This is sentence";
-		String[] expectedResult= {"first"};
+		firstSentence=excelUtil.getDataFromExcel(2, 0);
+		secondSentence=excelUtil.getDataFromExcel(2, 1);
+		String[] expectedResult= excelUtil.getDataFromExcel(2, 2).split(" ");
 		String[]actualResult = txtComparison.getDifferences(firstSentence, secondSentence);
 		Assert.assertEquals(actualResult,expectedResult,"Test Passed");
 		}
 	@Test (priority=1, groups="CoreTests", description="Some non-matching words in Second Sentence")
 	public void testSomeUncommonWordsinSecond(){
-		firstSentence="This is sentence";
-		secondSentence="This is second sentence";
-		String[] expectedResult= {"second"};
+		firstSentence=excelUtil.getDataFromExcel(3, 0);
+		secondSentence=excelUtil.getDataFromExcel(3, 1);
+		String[] expectedResult= excelUtil.getDataFromExcel(3, 2).split(" ");
 		String[]actualResult = txtComparison.getDifferences(firstSentence, secondSentence);
 		Assert.assertEquals(actualResult,expectedResult,"Test Passed");
 		}
