@@ -10,9 +10,10 @@
     <classes>
       <class name="com.textcompare.test.TextComparisonTests">
         <methods>
-          <include name="testSomeUncommonWordsinBoth"/>
           <include name="teardown"/>
+          <include name="testNoUncommonWords"/>
           <include name="setup"/>
+          <include name="testCaseSensitivityofUncommonWords"/>
         </methods>
       </class> <!-- com.textcompare.test.TextComparisonTests -->
     </classes>

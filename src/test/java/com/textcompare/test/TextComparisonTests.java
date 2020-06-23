@@ -43,9 +43,9 @@ public class TextComparisonTests {
 		}
 	@Test (priority=1, groups="CoreTests", description="All non-matching words")
 	public void testAllUncommonWords(){
-		firstSentence="my favorite";
-		secondSentence="butter pecan";
-		String[] expectedResult= {"butter","favorite","my","pecan"};
+		firstSentence=excelUtil.getDataFromExcel(4, 0);
+		secondSentence=excelUtil.getDataFromExcel(4, 1);
+		String[] expectedResult= excelUtil.getDataFromExcel(4, 2).split(" ");
 		String[] actualResult = txtComparison.getDifferences(firstSentence, secondSentence);
 		Assert.assertEquals(actualResult,expectedResult,"Test Passed");
 		}
